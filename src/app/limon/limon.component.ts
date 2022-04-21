@@ -1,13 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-alajuela',
-  templateUrl: './alajuela.component.html',
-  styleUrls: ['./alajuela.component.css']
+  selector: 'app-limon',
+  templateUrl: './limon.component.html',
+  styleUrls: ['./limon.component.css']
 })
-export class AlajuelaComponent implements OnInit {
+export class LimonComponent implements OnInit {
 
-  myimage:string = "assets/provincias/alajuela.png";
+  myimage:string = "assets/provincias/limon.png";
 
   ClimaData:any;
   constructor() { }
@@ -21,7 +21,7 @@ console.log(this.ClimaData)
 getClimaData(){
 
   
-  let data = JSON.parse('{"coord":{"lon":-84.2102,"lat":10.0188},"weather":[{"id":802,"main":"Clouds","description":"scattered clouds","icon":"03d"}],"base":"stations","main":{"temp":300.44,"feels_like":300.99,"temp_min":299.74,"temp_max":304.7,"pressure":1017,"humidity":52},"visibility":10000,"wind":{"speed":5.14,"deg":250},"clouds":{"all":40},"dt":1650477842,"sys":{"type":1,"id":7217,"country":"CR","sunrise":1650453827,"sunset":1650498436},"timezone":-21600,"id":3624955,"name":"Alajuela","cod":200}')
+  let data = JSON.parse('{"coord":{"lon":-84.0907,"lat":9.9281},"weather":[{"id":801,"main":"Clouds","description":"few clouds","icon":"02d"}],"base":"stations","main":{"temp":299.19,"feels_like":299.19,"temp_min":298.58,"temp_max":301.82,"pressure":1019,"humidity":47},"visibility":10000,"wind":{"speed":4.63,"deg":240},"clouds":{"all":20},"dt":1650474824,"sys":{"type":2,"id":2007848,"country":"CR","sunrise":1650453803,"sunset":1650498403},"timezone":-21600,"id":3621849,"name":"San José","cod":200}')
   this.setClimaData(data);
 }
 

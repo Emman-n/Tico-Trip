@@ -5,12 +5,25 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AlajuelaComponent } from './alajuela/alajuela.component';
 import { InfoLugar1Component } from './info-lugar1/info-lugar1.component';
-
+import { SanJoseComponent } from './san-jose/san-jose.component';
+import { HerediaComponent } from './heredia/heredia.component';
+import { CartagoComponent } from './cartago/cartago.component';
+import { LimonComponent } from './limon/limon.component';
+import { GuanacasteComponent } from './guanacaste/guanacaste.component';
+import { PuntarenasComponent } from './puntarenas/puntarenas.component';
+ 
 @NgModule({
   declarations: [
     AppComponent,
     AlajuelaComponent,
-    InfoLugar1Component
+    InfoLugar1Component,
+    SanJoseComponent,
+    HerediaComponent,
+    CartagoComponent,
+    LimonComponent,
+    GuanacasteComponent,
+    PuntarenasComponent,
+     
   ],
   imports: [
     BrowserModule,
