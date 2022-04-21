@@ -6,7 +6,14 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { RegistrarseComponent } from './registrarse/registrarse.component';
 import {HomeComponent} from './home/home.component'
-
+import { AlajuelaComponent } from './alajuela/alajuela.component';
+import { InfoLugar1Component } from './info-lugar1/info-lugar1.component';
+import { SanJoseComponent } from './san-jose/san-jose.component';
+import { HerediaComponent } from './heredia/heredia.component';
+import { CartagoComponent } from './cartago/cartago.component';
+import { LimonComponent } from './limon/limon.component';
+import { GuanacasteComponent } from './guanacaste/guanacaste.component';
+import { PuntarenasComponent } from './puntarenas/puntarenas.component';
 
 
 @NgModule({
@@ -14,8 +21,19 @@ import {HomeComponent} from './home/home.component'
     AppComponent,
     HomeComponent,
     LoginComponent,
-    RegistrarseComponent
+    RegistrarseComponent,
+    AppComponent,
+    AlajuelaComponent,
+    InfoLugar1Component,
+    SanJoseComponent,
+    HerediaComponent,
+    CartagoComponent,
+    LimonComponent,
+    GuanacasteComponent,
+    PuntarenasComponent,
 
+ 
+ 
   ],
   imports: [
     BrowserModule,
