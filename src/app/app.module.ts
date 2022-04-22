@@ -14,6 +14,8 @@ import { CartagoComponent } from './cartago/cartago.component';
 import { LimonComponent } from './limon/limon.component';
 import { GuanacasteComponent } from './guanacaste/guanacaste.component';
 import { PuntarenasComponent } from './puntarenas/puntarenas.component';
+import { RouterModule } from '@angular/router';
+import { NotFoundError } from 'rxjs';
 
 
 @NgModule({
@@ -36,8 +38,18 @@ import { PuntarenasComponent } from './puntarenas/puntarenas.component';
  
   ],
   imports: [
-    BrowserModule,
-    AppRoutingModule
+    BrowserModule, 
+    AppRoutingModule,
+    RouterModule.forRoot([
+
+
+      {path:"home",component:HomeComponent},
+      {path:"heredia",component:HerediaComponent},
+
+
+    ])
+
+
   ],
   providers: [],
   bootstrap: [AppComponent]

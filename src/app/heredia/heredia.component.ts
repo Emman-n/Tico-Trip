@@ -22,7 +22,7 @@ console.log(this.ClimaData)
 getClimaData(){
 
   
-  let data = JSON.parse('{"coord":{"lon":-84.1012,"lat":10.0116},"weather":[{"id":802,"main":"Clouds","description":"scattered clouds","icon":"03d"}],"base":"stations","main":{"temp":298.38,"feels_like":298.29,"temp_min":297.84,"temp_max":302.25,"pressure":1017,"humidity":51},"visibility":10000,"wind":{"speed":5.14,"deg":250},"clouds":{"all":40},"dt":1650478209,"sys":{"type":2,"id":2004086,"country":"CR","sunrise":1650453801,"sunset":1650498410},"timezone":-21600,"id":3621683,"name":"San Rafael","cod":200}')
+  let data = JSON.parse('{"coord":{"lon":-84.1012,"lat":10.0116},"weather":[{"id":802,"main":"Clouds","description":"scattered clouds","icon":"03d"}],"base":"stations","main":{"temp":298.38,"feels_like":298.29,"temp_min":297.84,"temp_max":302.25,"pressure":1017,"humidity":51},"visibility":10000,"wind":{"speed":5.14,"deg":250},"clouds":{"all":40},"dt":1650478209,"sys":{"type":2,"id":2004086,"country":"CR","sunrise":1650453801,"sunset":1650498410},"timezone":-21600,"id":3621683,"name":"Heredia","cod":200}')
   this.setClimaData(data);
 }
 

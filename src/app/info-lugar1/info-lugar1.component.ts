@@ -7,6 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class InfoLugar1Component implements OnInit {
 
+
+
+  image1:string = "assets/Lugar1/1.jpg";
+
+  image2:string = "assets/Lugar1/2.jpg";
+
+  image3:string = "assets/Lugar1/3.jpg";
+
+
   constructor() { }
 
   ngOnInit(): void {
